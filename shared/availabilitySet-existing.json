@@ -5,6 +5,9 @@
         "availabilitySetName": {
             "type": "string"
         }
+        "location": {
+            "type": "string"
+        }
     },
     "resources": [
 
