@@ -14,6 +14,9 @@
         "publicIpRGName": {
             "type": "string"
         }
+        "location": {
+            "type": "string"
+        }
     },
     "variables": {
         "publicIpId": "[resourceId(parameters('publicIpRGName'),concat('Microsoft.Network','/','publicIPAddresses'),parameters('publicIPAddressName'))]"
