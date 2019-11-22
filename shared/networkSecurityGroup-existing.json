@@ -7,7 +7,7 @@
         },
         "trustedNetwork": {
             "type": "string"
-        }
+        },
         "location": {
             "type": "string"
         }
