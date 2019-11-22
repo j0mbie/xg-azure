@@ -244,7 +244,7 @@
                 "deployments": "2016-02-01"
             }
         },
-        "location": "[resourceGroup().Location]"
+        "location": "eastus2"
     },
     "resources": [
         {
