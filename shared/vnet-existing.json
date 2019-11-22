@@ -23,7 +23,7 @@
         "vnetExistingRGName": {
             "type": "string",
             "defaultValue": ""
-        }
+        },
         "location": {
             "type": "string"
         }
