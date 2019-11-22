@@ -13,7 +13,7 @@
         },
         "publicIpRGName": {
             "type": "string"
-        }
+        },
         "location": {
             "type": "string"
         }
