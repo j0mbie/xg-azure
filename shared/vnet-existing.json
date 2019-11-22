@@ -24,6 +24,9 @@
             "type": "string",
             "defaultValue": ""
         }
+        "location": {
+            "type": "string"
+        }
     },
     "variables": {
         "vnetID": "[resourceId(parameters('vnetExistingRGName'),concat('Microsoft.Network','/','virtualNetworks'),parameters('virtualNetworkName'))]"
