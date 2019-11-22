@@ -20,7 +20,7 @@
             "metadata": {
                 "Description": "Resource Group Name of the existing Storage Account"
             }
-        }
+        },
         "location": {
             "type": "string"
         }
