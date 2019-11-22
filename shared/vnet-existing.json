@@ -33,7 +33,7 @@
     },
     "resources": [
 
-    ],
+    ], 
     "outputs": {
         "subnet1Ref": {
             "value": "[concat(variables('vnetID'),'/subnets/',parameters('Subnet1Name'))]",
