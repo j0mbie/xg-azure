@@ -477,9 +477,6 @@
                     "interfaceRefLan": {
                         "value": "[reference('SettingUpInterfaceLan','2015-01-01').outputs.interfaceRef.value]"
                     },
-                    "devFwBlobUrlPrefix": {
-                        "value": "[parameters('devFwBlobUrlPrefix')]"
-                    },
                     "location": {
                         "value": "[variables('location')]"
                     }
