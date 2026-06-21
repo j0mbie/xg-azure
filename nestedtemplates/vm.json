@@ -29,7 +29,7 @@
         "location":{
             "type": "string"
         },
-        "availabilityZone":{
+        "zones":{
             "type": "string"
         }
     },
@@ -50,7 +50,7 @@
             },
             "location": "[parameters('location')]",
             "zones": [
-                "[parameters('availabilityZone')]"
+                "[parameters('zones')]"
             ],
             "properties": {
                 "availabilitySet": {
