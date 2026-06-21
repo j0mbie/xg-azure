@@ -47,6 +47,13 @@
                 "description": "Size of the Virtual Machine."
             }
         },
+        "vmAvailZone": {
+            "type": "string",
+            "defaultValue": "1",
+            "metadata": {
+                "description": "Availability Zone of the Virtual Machine. (i.e. 1, 2, 3.) Some zones have capacity issues."
+            }
+        },
         "netNewOrExisting": {
             "type": "string",
             "defaultValue": "new",
