@@ -522,8 +522,8 @@
                     "location": {
                         "value": "[parameters('location')]"
                     },
-                    "vmAvailZone": {
-                        "value": "[parameters('vmAvailZone')]"
+                    "zones": {
+                        "value": "[parameters('zones')]"
                     }
                 }
             }
