@@ -29,7 +29,7 @@
         "location":{
             "type": "string"
         }
-        "vmAvailZone":{
+        "availabilityZone":{
             "type": "string"
         }
     },
@@ -49,7 +49,9 @@
                 "name": "[parameters('imageSku')]"
             },
             "location": "[parameters('location')]",
-            "zones": "[parameters('vmAvailZone')]",
+            "zones": [
+                "[parameters('availabilityZone')]"
+            ],
             "properties": {
                 "availabilitySet": {
                     "id": "[parameters('availabilitySetId')]"
