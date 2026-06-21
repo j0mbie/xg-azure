@@ -47,11 +47,16 @@
                 "description": "Size of the Virtual Machine."
             }
         },
-        "vmAvailZone": {
+        "availabilityZone": {
             "type": "string",
             "defaultValue": "1",
+            "allowedValues": [
+                "1",
+                "2",
+                "3"
+            ],
             "metadata": {
-                "description": "Availability Zone of the Virtual Machine. (i.e. 1, 2, 3.) Some zones have capacity issues."
+                "description": "The Availability Zone to deploy the VM into."
             }
         },
         "netNewOrExisting": {
