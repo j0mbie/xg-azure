@@ -47,7 +47,7 @@
                 "description": "Size of the Virtual Machine."
             }
         },
-        "vmAvailZone": {
+        "zones": {
             "type": "string",
             "defaultValue": "1",
             "allowedValues": [
