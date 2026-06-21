@@ -28,7 +28,7 @@
         },
         "location":{
             "type": "string"
-        }
+        },
         "availabilityZone":{
             "type": "string"
         }
