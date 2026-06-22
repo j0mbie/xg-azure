@@ -49,13 +49,7 @@
                 "name": "[parameters('imageSku')]"
             },
             "location": "[parameters('location')]",
-            "zones": [
-                "[parameters('zones')]"
-            ],
             "properties": {
-                "availabilitySet": {
-                    "id": "[parameters('availabilitySetId')]"
-                },
                 "hardwareProfile": {
                     "vmSize": "[parameters('vmSize')]"
                 },
